@@ -30,8 +30,9 @@ Lottie enables designers to create and ship beautiful animations without an engi
 
   s.source_files = 'Sources/**/*.swift'
   s.resource_bundles = {
-    'LottiePrivacyInfo' => ['Sources/PrivacyInfo.xcprivacy'],
+    'lottie-ios' => ['Sources/PrivacyInfo.xcprivacy'],
   }
+
   s.ios.exclude_files = 'Sources/Public/MacOS/**/*'
   s.tvos.exclude_files = 'Sources/Public/MacOS/**/*'
   s.osx.exclude_files = 'Sources/Public/iOS/**/*'
