@@ -1,16 +1,22 @@
 PODS:
-  - lottie-ios (3.2.2)
+  - lottie-ios (3.2.3)
 
 DEPENDENCIES:
-  - lottie-ios (from `../`)
+  - lottie-ios (from `https://github.com/Aktivolabs/lottie-ios.git`, branch `main`)
 
 EXTERNAL SOURCES:
   lottie-ios:
-    :path: "../"
+    :branch: main
+    :git: https://github.com/Aktivolabs/lottie-ios.git
+
+CHECKOUT OPTIONS:
+  lottie-ios:
+    :commit: 48b8754bd61e1cd54b2265ad5371c10a85ebd60b
+    :git: https://github.com/Aktivolabs/lottie-ios.git
 
 SPEC CHECKSUMS:
-  lottie-ios: a033bb989eea77d9f99cc4e2bbdd3788229761ad
+  lottie-ios: 0774151dfa439785a1f57c878ad9529baef15918
 
-PODFILE CHECKSUM: 39996949d6fdb53021e9e6dfeaf254366502807f
+PODFILE CHECKSUM: 7e67aafec7a81630ed4690f78b1df37d21f78950
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.14.3
