@@ -38,4 +38,8 @@ For the first time, designers can create and ship beautiful animations without a
   s.osx.frameworks = ['AppKit', 'CoreGraphics', 'QuartzCore']
   s.module_name = 'Lottie'
   s.header_dir = 'Lottie'
+  s.resource_bundles = {
+  'Lottie' => ['lottie-swift/Sources/PrivacyInfo.xcprivacy'],
+}
+
 end
